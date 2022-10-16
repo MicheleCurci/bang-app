@@ -1,0 +1,62 @@
+expansion;name;description
+Dodge City;Apache Kid;le carte di Quadri giocate dagli avversari non hanno alcun effetto su di lui. Durante il Duello la sua abilità non funziona.
+Dodge City;Belle Star;nel suo turno, le carte in gioco di fronte agli altri giocatori non hanno effetto. Questo si applica sia alle carte con bordo blu, sia a quelle con bordo verde.
+Dodge City;Bill Noface;nel suo turno, al momento di pescare le carte (fase 1), ne pesca una, più 1 carta per ogni ferita che ha. Pertanto, se non ha ferite pesca 1 carta, con una ferita ne pesca 2, con due ferite ne pesca 3 e così via.
+Dodge City;Chuck Wengam;nel suo turno può scegliere di perdere 1 punto vita per pescare 2 carte dal mazzo. Se vuole, può anche usare più volte di seguito quest’abilità, ma non può scegliere di perdere in questo modo l’ultimo punto vita.
+Dodge City;Doc Holyday;nel suo turno può scartare una sola volta due carte qualsiasi per ottenere l’effetto di un BANG! (su un avversario a distanza raggiungibile). Tale effetto non conta nel limite di una carta BANG! per turno. Per sparare ad Apache Kid in questo modo basta che una delle due carte non sia di Quadri.
+Dodge City;Elena Fuente;può usare una carta qualsiasi dalla mano come un Mancato!.
+Dodge City;Greg Digger;ogni volta che un altro personaggio è eliminato, recupera 2 punti vita. Al solito, non può guadagnare più punti vita di quelli con cui inizia.
+Dodge City;Herb Hunter;ogni volta che un altro personaggio è eliminato, pesca 2 carte dal mazzo. Se elimina un Fuorilegge personalmente, dunque, pesca in totale 5 carte.
+Dodge City;José Delgado;nel suo turno può scartare una carta blu dalla mano per pescare 2 carte dal mazzo. Se vuole e gli è possibile, può usare fino a due volte quest’abilità.
+Dodge City;Molly Stark;ogni volta che gioca o scarta volontariamente una carta fuori turno dalla mano (per esempio Mancato!, Birra, oppure BANG! in risposta agli Indiani!), pesca subito un’altra carta dal mazzo. Mentre risponde a un Duello, però, non pesca: solo al termine del Duello pesca tante carte quanti BANG! ha scartato. Carte scartate a causa di carte quali Cat Balou, Panico!, Rissa o Can Can non sono scartate volontariamente!
+Dodge City;Pat Brennan;nel suo turno, al momento di pescare le carte (fase 1), sceglie se pescare le consuete due carte dal mazzo o, in alternativa, prendere una carta (e solo questa) in gioco e aggiungerla alla propria mano. La carta in gioco può essere di fronte ad un giocatore qualsiasi, e può essere sia a bordo blu che a bordo verde.
+Dodge City;Pixie Pete;nel suo turno, al momento di pescare le carte (fase 1), ne pesca 3 invece di 2.
+Dodge City;Sean Mallory;alla fine del suo turno (fase 3) può tenere in mano fino a 10 carte.
+Dodge City;Tequila Joe;ogni volta che gioca una Birra, recupera 2 punti vita anziché 1. Con Saloon, Tequila, Borraccia recupera solo 1 punto vita.
+Dodge City;Vera Custer;all’inizio del suo turno, prima di pescare, indica un altro personaggio ancora in gioco. Fino al suo prossimo turno ha la stessaabilità di quel personaggio.
+Wild West Show;Flint Westwood;La carta dalla tua mano è a scelta, non a caso. Se il giocatore bersaglio ha una sola carta, ne ricevi solo una.
+Wild West Show;Greygory Deck;I personaggi validi sono solo quelli del gioco base. Al tuo prossimo turno, puoi decidere di tenere i personaggi pescati oppure cambiarli. Se decidi di cambiarli, devi cambiarli entrambi. Questa abilità si applica anche a inizio partita.
+Wild West Show;John Pain;La carta presa così non può essere usata subito, devi attendere che finisca l’effetto precedente. Ad esempio, se è una Birra e perdi contestualmente l’ultimo punto vita, non puoi giocarla.
+Wild West Show;Lee Van Kliff;La carta a bordo marrone può essere anche un altro BANG! Puoi ripetere una sola volta ciascun effetto. Se ripeti l’effetto di Diligenza o Wells Fargo, la carta WWS cambia solo la prima volta. Ripetere l’effetto conta come una carta giocata, se in gioco c’è Miss Susanna.
+Wild West Show;Teren Kill;Se l'estrarre! fallisce, non puoi giocare una Birra per salvarti.
+Gold Rush;Don Bell;Alla fine del turno extra non estrae di nuovo.
+Gold Rush;Dutch Will;La carta che scarta deve essere una delle due che ha pescatonella propria fase 1, a scelta.
+Gold Rush;Jacky Murieta;Può sparare più BANG! extra per turno, fi nché vuole e ha pepite. Non deve giocare carte per usare questa abilità.
+Gold Rush;Josh McCloud;Solo nel suo turno. Se pesca un equipaggiamento nero che già possiede, lo scarta.
+Gold Rush;Madam Yto;Non importa che la Birra sia stata giocata per il punto vita o per prendere una pepita. Non importa chi gioca la Birra, valgono anche quelle giocate da Madam Yto. L’abilità non funziona se qualcuno usa altre carte simili come Whisky o Bottiglia come Birra.
+Gold Rush;Pretty Luzena;Può comprare più di un equipaggiamento per turno, ma uno solo con costo diminuito di 1. Se usa l’abilità su un equipaggiamento che costa 1, lo prende gratis.
+Gold Rush;Raddie Snake;Per tenere traccia del numero di carte che peschi, metti le pepite che paghi sulla carta, e poi scartale tutte insieme a fine turno.
+Gold Rush;Simeon Picos;La pepita si prende dal mucchio, non dal giocatore che eventualmente l’ha ferito.
+Armed & Dangerous;Al Preacher;può essere attivato fuori turno. Puoi pescare solo 1 carta per ogni carta a bordo blu o arancione giocata, anche se puoi spendere più di 2 cubetti per volta. Si può attivare solo prima che venga giocata un’altra carta dopo quella a bordo blu o arancione.
+Armed & Dangerous;Bass Greeves;puoi aggiungere i 2 cubetti su una tua unica carta Dangerous o sul personaggio stesso, ma non sud ue carte diverse (una per carta).
+Armed & Dangerous;Bloody Mary;non vale per carte che non sono carte BANG! vere e proprie, come ad es. Flintlock, Colpo rapido, Gatling, ecc.
+Armed & Dangerous;Frankie Canton;il cubetto che sposti può essere preso da una qualsiasi carta Dangerous in gioco, tua o di un altro giocatore, o da un altro personaggio. Si applica comunque il limite di 4 cubetti. Se prendi l’ultimo da una carta Dangerous, va scartata come al solito.
+Armed & Dangerous;Julie Cutter;il BANG! èsolo 1 anche se perdi piùpunti vita assieme, è automatico (non è necessariogiocare una carta BANG!), non tiene conto della distanza e può essere annullato al solito con Mancato!,Barile, Cassa, ecc.
+Armed & Dangerous;Mexicali Kid;il BANG! è“extra”, quindi non conta nel limite di 1 carta BANG! a turno, e non è necessario giocare alcuna carta BANG!. Il colpo può essere annullato al solito con Mancato!, Barile, Cassa, ecc., arriva fino alla distanza dell’arma che hai in gioco, ma non attiva gli effetti di un’arma Dangerous. Non funziona fuori turno (contro Indiani!, Freccia,Duello, ecc.)
+Armed & Dangerous;Ms. Abigail;non vale sulle carte che hanno effetto su tutti, come ad es. Indiani!
+Armed & Dangerous;Red Ringo;lo spostamento va fatto in un’unica mossa. Puoi scegliere anche due carte diverse, e mettere 1 cubetto su ciascuna. Non puoi spostare cubetti dalle carte Dangerous a Red Ringo.
+Armed & Dangerous;Jourdonnais;L’abilità può essere usata per evitare gli effetti della Flintlock e della Buntline Special, nonché contro Mexicali Kid.
+Armed & Dangerous;Lucky Duke;Con il Cespuglio ripete per intero il suo “estrarre!”, quindi mostra di nuovo due carte e sceglie il risultato.
+Armed & Dangerous;Slab the Killer;Se usa la Buntline Special, servono 3 Mancato! per evitare i BANG!.
+Valley of Shadows;Black Flower;puoi usare una qualunque carta di fiori come BANG! in aggiunta al singolo BANG! per turno.
+Valley of Shadows;Colorado Bill;carte come Mancato! o Barile o l’abilità di Jourdonnais non possono essere usate.
+Valley of Shadows;Der Spot-Burst Ringer;la carta BANG! non conta per il limite di una carta BANG! a turno.
+Valley of Shadows;Evelyn Shebang;devi scegliere se pescare 0, 1 o 2 carte prima di pescare (non puoi pescare una carta, guardarla, e poi scegliere di “sparare” la seguente).
+Valley of Shadows;Henry Block;la carta è pescata (o scartata) solo dopo che il BANG! automatico è stato risolto. Funziona ad es. contro Jesse Jones e Pat Brennan, ma non contro abilità automatiche tipo quella di El Gringo.
+Valley of Shadows;Mick Defender;l’abilità funziona anche contro carte che coinvolgono più giocatori (Gatling, Indiani, ecc.). Il Mancato! previene gli effetti solo per te, non per gli altri.
+Bang!;Bart Cassidy;ogni volta che perde un punto vita, pesca immediatamente una carta dal mazzo.
+Bang!;Black Jack;nel suo turno, al momento di pescare le carte (fase 1) mostra a tutti la seconda carta che pesca. Se è Cuori o Quadri, pesca una carta in più (senza farla vedere).
+Bang!;Calamity Janet;può usare i Mancato! come se fossero carte BANG!, e viceversa. Se usa un Mancato! come BANG!, non può giocare un’altra carta BANG! nello stesso turno (a meno che non abbia una Volcanic in gioco).
+Bang!;El Gringo;ogni volta che perde un punto vita a causa di una carta giocata da un giocatore, pesca una carta a caso dalla mano di quel giocatore (una per ogni punto vita perso). Se quel giocatore non ha carte in mano -peccato!- non pesca. Ricordate che i danni da Dinamite non si considerano causati da un giocatore.
+Bang!;Jesse Jones;nel suo turno, al momento di pescare le carte (fase 1), può pescare la prima carta a caso dalla mano di un giocatore qualsiasi, invece che dal mazzo. Poi pesca la seconda carta dal mazzo.
+Bang!;Jourdonnais;è come se avesse sempre in gioco un Barile, può cioè estrarre! quando è il bersaglio di un BANG!, e con Cuori è mancato. Un’eventuale Barile reale in gioco si somma alla sua abilità naturale, consentendogli di tentare per due volte di annullare il colpo. 
+Bang!;Kit Carlson;nel suo turno, al momento di pescare le carte (fase 1), guarda le prime 3 carte del mazzo: sceglie le due che pesca, e rimette coperta in cima al mazzo quella che avanza.
+Bang!;Lucky Duke;ogni volta che deve “estrarre!”, scopre le prime 2 carte dal mazzo e sceglie il risultato che preferisce, scartando poi entrambe le carte.
+Bang!;Paul Regret;è come se avesse sempre in gioco un Mustang, è visto cioè subito dagli altri a una distanza aumentata di 1. Un’eventuale Mustang reale in gioco si somma alla sua abilità naturale, aumentando in totale la distanza a cui è visto di 2.
+Bang!;Pedro Ramirez;nel suo turno, al momento di pescare le carte (fase 1), può pescare la prima carta dalla cima della pila degli scarti, invece che dal mazzo. Poi pesca la seconda carta dal mazzo.
+Bang!;Rose Doolan;è come se avesse sempre in gioco un Mirino, vede cioè subito gli altri ad una distanza diminuita di 1. Un eventuale Mirino reale in gioco si somma alla sua abilità naturale, diminuendo in totale la distanza a cui vede gli altri di 2.
+Bang!;Sid Ketchum;in qualunque momento può scartare 2 carte dalla propria mano per recuperare 1 punto vita. Se vuole e gli è possibile, può anche usare più volte di seguito quest’abilità. Ricordate che non si possono mai avere più punti vita di quelli iniziali.
+Bang!;Slab the Killer;per annullare le sue carte BANG! servono 2 Mancato!. L’effetto del Barile, se attivato con successo, corrisponde solo ad 1 Mancato!.
+Bang!;Suzy Lafayette;non appena rimane senza carte in mano, pesca immediatamente una carta dal mazzo. 
+Bang!;Vulture Sam;non appena un personaggio è eliminato, Sam prende in mano tutte le carte che quel personaggio aveva in mano e in gioco.
+Bang!;Willy The Kid;nel suo turno può usare un numero qualsiasi di carte BANG! Queste possono essere usate anche contro giocatori diversi.

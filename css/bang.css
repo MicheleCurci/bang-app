@@ -1,0 +1,91 @@
+@font-face {
+    font-family: westernBangBang;
+    src: url(/fonts/WesternBangBang-Regular.ttf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.light-bang-bg {
+    background: #b89f5e url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
+    /*#c0a154*/
+}
+
+.dark-bang-bg {
+    background: #7e662b url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
+}
+
+.question {
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.search-container {
+    max-width: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.input-border {
+    border-width: 2px;
+    border-color: dodgerblue;
+}
+
+.display_on {
+    display: initial;
+}
+
+.display_block_on {
+    display: block;
+}
+
+.display_off {
+    display: none;
+}
+
+.icon-before-text {
+    height: 1em;
+    width: 1em;
+    margin-right: 8px;
+}
+
+.bang-logo {
+    max-height: 150px;
+}
+
+.section-title {
+    margin: 6px;
+    font-family: westernBangBang;
+    font-size: 400%;
+    color: #ee3e22;
+}
+
+#sidebar-wrapper {
+    font-family: westernBangBang;
+    font-size: xx-large;
+}
+
+.character,
+.character_description {
+    display: initial;
+}
+
+.character {
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.characters-node {
+    margin-bottom: 16px;
+}
+
+#main_page {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+}
