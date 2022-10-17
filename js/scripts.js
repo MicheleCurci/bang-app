@@ -1,11 +1,4 @@
-/*!
-* Start Bootstrap - Simple Sidebar v6.0.5 (https://startbootstrap.com/template/simple-sidebar)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
-*/
-// 
-// Scripts
-// 
+// scripts
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -24,6 +17,8 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
 });
+
+// file paths
 
 const faq_filepath = "../files/rules/faq.csv";
 const special_rules_filepath = "../files/rules/special_rules.csv";
@@ -44,13 +39,10 @@ function getCSV(file_url, func) {
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4)
-            alert("1");
-        if (rawFile.status === 200 || rawFile.status == 0) {
-            allText = rawFile.responseText;
-            alert(allText);
-        }
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                allText = rawFile.responseText;
+            }
         if (func != undefined && typeof (func) == "function") {
-            alert("2");
             func(allText);
         }
     };
@@ -60,6 +52,7 @@ function getCSV(file_url, func) {
 
 
 function buildFAQ(contents) {
+    alert(contents)
     faq_rules = contents.split('\r\n');
     faq_rules.shift();
 
