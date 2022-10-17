@@ -25,9 +25,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-getCSV("files/rules/faq.csv", buildFAQ);
-getCSV("files/rules/special_rules.csv", buildSpecialRules);
-getCSV("files/rules/characters.csv", buildCharacters);
+getCSV("/bang-app/files/rules/faq.csv", buildFAQ);
+getCSV("../bang-app/files/rules/special_rules.csv", buildSpecialRules);
+getCSV("/files/rules/characters.csv", buildCharacters);
 
 
 // function definitions
@@ -49,6 +49,7 @@ function getCSV(file_url, func) {
 
     rawFile.send();
 }
+
 
 function buildFAQ(contents) {
     faq_rules = contents.split('\r\n');
