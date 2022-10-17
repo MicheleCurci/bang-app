@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 getCSV("/bang-app/files/rules/faq.csv", buildFAQ);
 getCSV("../bang-app/files/rules/special_rules.csv", buildSpecialRules);
-getCSV("/files/rules/characters.csv", buildCharacters);
+getCSV("/bang-app/files/rules/characters.csv", buildCharacters);
 
 
 // function definitions
