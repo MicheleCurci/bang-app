@@ -39,9 +39,11 @@ function getCSV(file_url, func) {
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4)
-            alert("aooo")
-        if (rawFile.status === 200 || rawFile.status == 0)
+            alert("aooo");
+        if (rawFile.status === 200 || rawFile.status == 0) {
             allText = rawFile.responseText;
+            alert(allText);
+        }
         if (func != undefined && typeof (func) == "function") {
             func(allText);
         }
