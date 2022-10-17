@@ -1,6 +1,6 @@
 @font-face {
     font-family: westernBangBang;
-    src: url(/bang-app/fonts/WesternBangBang-Regular.ttf);
+    src: url(../fonts/WesternBangBang-Regular.ttf);
 }
 
 body {

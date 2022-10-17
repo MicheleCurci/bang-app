@@ -25,9 +25,13 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-getCSV("/bang-app/files/rules/faq.csv", buildFAQ);
-getCSV("/bang-app/files/rules/special_rules.csv", buildSpecialRules);
-getCSV("/bang-app/files/rules/characters.csv", buildCharacters);
+const faq_filepath = "../files/rules/faq.csv";
+const special_rules_filepath = "../files/rules/special_rules.csv";
+const characters_filepath = "../files/rules/characters.csv";
+
+getCSV(faq_filepath, buildFAQ);
+getCSV(special_rules_filepath, buildSpecialRules);
+getCSV(characters_filepath, buildCharacters);
 
 
 // function definitions
