@@ -41,6 +41,7 @@ function getCSV(file_url, func) {
         if (rawFile.readyState === 4)
             if (rawFile.status === 200 || rawFile.status == 0) {
                 allText = rawFile.responseText;
+                alert(allText);
             }
         if (func != undefined && typeof (func) == "function") {
             func(allText);
