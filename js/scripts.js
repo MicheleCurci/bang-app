@@ -20,9 +20,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
 // file paths
 
-const faq_filepath = "../files/rules/faq.csv";
-const special_rules_filepath = "../files/rules/special_rules.csv";
-const characters_filepath = "../files/rules/characters.csv";
+const faq_filepath = "/bang-app/files/rules/faq.csv";
+const special_rules_filepath = "/bang-app/files/rules/special_rules.csv";
+const characters_filepath = "/bang-app/files/rules/characters.csv";
 
 getCSV(faq_filepath, buildFAQ);
 getCSV(special_rules_filepath, buildSpecialRules);
