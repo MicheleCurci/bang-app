@@ -39,11 +39,9 @@ function getCSV(file_url, func) {
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4) {
-            alert("aooo #3");
-            if (rawFile.status === 200 || rawFile.status == 0) {
+            alert("aooo #4");
+            if (rawFile.status === 200 || rawFile.status == 0)
                 allText = rawFile.responseText;
-                alert(allText);
-            }
         }
         if (func != undefined && typeof (func) == "function") {
             func(allText);
@@ -57,7 +55,9 @@ function getCSV(file_url, func) {
 function buildFAQ(contents) {
     alert(contents)
     faq_rules = contents.split('\r\n');
+    alert(faq_rules);
     faq_rules.shift();
+    alert(faq_rules);
 
     const node = document.createElement("div");
     document.getElementById("main_page").appendChild(node);
