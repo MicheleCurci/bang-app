@@ -71,6 +71,7 @@ function getCSV(file_url, func) {
 function buildFAQ(contents) {
     alert("#8")
     alert(contents)
+    alert(typeof contents);
     faq_rules = contents.split('\r\n');
     //alert(faq_rules);
     faq_rules.shift();
