@@ -19,14 +19,16 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 // file paths
+var faq_filepath = "/bang-app/files/rules/faq.csv";
+var special_rules_filepath = "/bang-app/files/rules/special_rules.csv";
+var characters_filepath = "/bang-app/files/rules/characters.csv";
 
-const faq_filepath = "/bang-app/files/rules/faq.csv";
-const special_rules_filepath = "/bang-app/files/rules/special_rules.csv";
-const characters_filepath = "/bang-app/files/rules/characters.csv";
-
-// const faq_filepath = "../files/rules/faq.csv";
-// const special_rules_filepath = "../files/rules/special_rules.csv";
-// const characters_filepath = "../files/rules/characters.csv";
+// TODO: improve development environment
+if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+    faq_filepath = "../files/rules/faq.csv";
+    special_rules_filepath = "../files/rules/special_rules.csv";
+    characters_filepath = "../files/rules/characters.csv";
+}
 
 getCSV(faq_filepath, buildFAQ);
 getCSV(special_rules_filepath, buildSpecialRules);
@@ -34,27 +36,6 @@ getCSV(characters_filepath, buildCharacters);
 
 
 // function definitions
-/*
-function getCSV(file_url, func) {
-    var file = file_url;
-    var rawFile = new XMLHttpRequest();
-    var allText;
-
-    rawFile.open("GET", file, async = true);
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            alert("aooo #6");
-            if (rawFile.status === 200 || rawFile.status == 0)
-                allText = rawFile.responseText;
-        }
-        if (func != undefined && typeof (func) == "function") {
-            func(allText);
-        }
-    };
-
-    rawFile.send();
-}*/
-
 function getCSV(file_url, func) {
     var request = new XMLHttpRequest();
 
@@ -69,14 +50,8 @@ function getCSV(file_url, func) {
 }
 
 function buildFAQ(contents) {
-    alert("#9");
-    console.log(contents);
-    alert(typeof contents);
     faq_rules = contents.split('\n');
-    alert(faq_rules);
     faq_rules.shift();
-    alert(faq_rules);
-
     const node = document.createElement("div");
     document.getElementById("main_page").appendChild(node);
 
@@ -85,7 +60,6 @@ function buildFAQ(contents) {
     title_node.classList.add("section-title");
     node.appendChild(title_node);
 
-    alert("before foreach");
     faq_rules.forEach(faq_rule => {
 
         // create nodes
