@@ -1,6 +1,6 @@
 @font-face {
     font-family: westernBangBang;
-    src: url(/fonts/WesternBangBang-Regular.ttf);
+    src: url(../fonts/WesternBangBang-Regular.ttf);
 }
 
 body {
@@ -8,12 +8,12 @@ body {
 }
 
 .light-bang-bg {
-    background: #b89f5e url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
+    background: #cfbd91 url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
     /*#c0a154*/
 }
 
 .dark-bang-bg {
-    background: #7e662b url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
+    background: #5f4e25 url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
 }
 
 .question {

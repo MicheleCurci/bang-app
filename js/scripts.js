@@ -1,11 +1,4 @@
-/*!
-* Start Bootstrap - Simple Sidebar v6.0.5 (https://startbootstrap.com/template/simple-sidebar)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
-*/
-// 
-// Scripts
-// 
+// scripts
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -25,35 +18,40 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-getCSV("files/rules/faq.csv", buildFAQ);
-getCSV("files/rules/special_rules.csv", buildSpecialRules);
-getCSV("files/rules/characters.csv", buildCharacters);
+// file paths
+var faq_filepath = "/bang-app/files/rules/faq.csv";
+var special_rules_filepath = "/bang-app/files/rules/special_rules.csv";
+var characters_filepath = "/bang-app/files/rules/characters.csv";
+
+// TODO: improve development environment
+if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+    faq_filepath = "../files/rules/faq.csv";
+    special_rules_filepath = "../files/rules/special_rules.csv";
+    characters_filepath = "../files/rules/characters.csv";
+}
+
+getCSV(faq_filepath, buildFAQ);
+getCSV(special_rules_filepath, buildSpecialRules);
+getCSV(characters_filepath, buildCharacters);
 
 
 // function definitions
-
 function getCSV(file_url, func) {
-    var file = file_url;
-    var rawFile = new XMLHttpRequest();
-    var allText;
+    var request = new XMLHttpRequest();
 
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4)
-            if (rawFile.status === 200 || rawFile.status == 0)
-                allText = rawFile.responseText;
-        if (func != undefined && typeof (func) == "function") {
-            func(allText);
+    request.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            func(this.responseText);
         }
     };
 
-    rawFile.send();
+    request.open('GET', file_url);
+    request.send();
 }
 
 function buildFAQ(contents) {
-    faq_rules = contents.split('\r\n');
+    faq_rules = contents.split('\n');
     faq_rules.shift();
-
     const node = document.createElement("div");
     document.getElementById("main_page").appendChild(node);
 
@@ -61,7 +59,6 @@ function buildFAQ(contents) {
     title_node.innerHTML = "FAQ";
     title_node.classList.add("section-title");
     node.appendChild(title_node);
-
 
     faq_rules.forEach(faq_rule => {
 
@@ -103,7 +100,7 @@ function buildFAQ(contents) {
 }
 
 function buildSpecialRules(contents) {
-    special_rules = contents.split('\r\n');
+    special_rules = contents.split('\n');
     special_rules.shift();
 
     const node = document.createElement("div");
@@ -141,7 +138,7 @@ function buildSpecialRules(contents) {
 
 
 function buildCharacters(contents) {
-    character_rules = contents.split('\r\n');
+    character_rules = contents.split('\n');
     character_rules.shift();
 
     const node = document.createElement("div");
