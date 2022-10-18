@@ -126,7 +126,7 @@ function buildFAQ(contents) {
 }
 
 function buildSpecialRules(contents) {
-    special_rules = contents.split('\r\n');
+    special_rules = contents.split('\n');
     special_rules.shift();
 
     const node = document.createElement("div");
@@ -164,7 +164,7 @@ function buildSpecialRules(contents) {
 
 
 function buildCharacters(contents) {
-    character_rules = contents.split('\r\n');
+    character_rules = contents.split('\n');
     character_rules.shift();
 
     const node = document.createElement("div");
