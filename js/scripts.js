@@ -36,10 +36,10 @@ function getCSV(file_url, func) {
     var rawFile = new XMLHttpRequest();
     var allText;
 
-    rawFile.open("GET", file, false);
+    rawFile.open("GET", file, async = true);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4) {
-            alert("aooo #4");
+            alert("aooo #5");
             if (rawFile.status === 200 || rawFile.status == 0)
                 allText = rawFile.responseText;
         }
