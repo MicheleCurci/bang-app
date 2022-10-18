@@ -24,13 +24,17 @@ const faq_filepath = "/bang-app/files/rules/faq.csv";
 const special_rules_filepath = "/bang-app/files/rules/special_rules.csv";
 const characters_filepath = "/bang-app/files/rules/characters.csv";
 
+// const faq_filepath = "../files/rules/faq.csv";
+// const special_rules_filepath = "../files/rules/special_rules.csv";
+// const characters_filepath = "../files/rules/characters.csv";
+
 getCSV(faq_filepath, buildFAQ);
 getCSV(special_rules_filepath, buildSpecialRules);
 getCSV(characters_filepath, buildCharacters);
 
 
 // function definitions
-
+/*
 function getCSV(file_url, func) {
     var file = file_url;
     var rawFile = new XMLHttpRequest();
@@ -39,7 +43,7 @@ function getCSV(file_url, func) {
     rawFile.open("GET", file, async = true);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4) {
-            alert("aooo #5");
+            alert("aooo #6");
             if (rawFile.status === 200 || rawFile.status == 0)
                 allText = rawFile.responseText;
         }
@@ -49,15 +53,28 @@ function getCSV(file_url, func) {
     };
 
     rawFile.send();
+}*/
+
+function getCSV(file_url, func) {
+    var request = new XMLHttpRequest();
+
+    request.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            func(this.responseText);
+        }
+    };
+
+    request.open('GET', file_url);
+    request.send();
 }
 
-
 function buildFAQ(contents) {
+    alert("#8")
     alert(contents)
     faq_rules = contents.split('\r\n');
-    alert(faq_rules);
+    //alert(faq_rules);
     faq_rules.shift();
-    alert(faq_rules);
+    //alert(faq_rules);
 
     const node = document.createElement("div");
     document.getElementById("main_page").appendChild(node);
