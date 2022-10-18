@@ -69,13 +69,13 @@ function getCSV(file_url, func) {
 }
 
 function buildFAQ(contents) {
-    alert("#8")
-    alert(contents)
+    alert("#9");
+    alert(contents);
     alert(typeof contents);
     faq_rules = contents.split('\r\n');
-    //alert(faq_rules);
+    alert(faq_rules);
     faq_rules.shift();
-    //alert(faq_rules);
+    alert(faq_rules);
 
     const node = document.createElement("div");
     document.getElementById("main_page").appendChild(node);
@@ -85,7 +85,7 @@ function buildFAQ(contents) {
     title_node.classList.add("section-title");
     node.appendChild(title_node);
 
-
+    alert("before foreach");
     faq_rules.forEach(faq_rule => {
 
         // create nodes
