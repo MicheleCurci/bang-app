@@ -8,7 +8,7 @@ Anche se la Gatling causa un BANG! a tutti gli altri, essa non è una carta BANG
 Camposanto: I giocatori rientrano in gioco in modo defi nitivo. Quindi restano in gioco anche dopo che il Camposanto termina il suo effetto, se sono ancora vivi.
 Darling Valentine: I giocatori poi pescano anche le solite 2 carte dal mazzo.
 Dorothy Rage: Se il giocatore che obblighi non ha quella carta, deve mostrare la mano. Se ce l’ha, deve giocarla come se fosse lui di turno, anche per il calcolo della distanza. Sei tu però a scegliere eventuali bersagli.
-Lady Rosa del Texas: Porta con te tutte le tue carte, la plancia, ecc.!
+Lady Rosa del Texas: Porta con te tutte le tue carte, la plancia, ecc.
 Miss Susanna: Non si applica a chi salta il turno per la Prigione.
 Regolamento di conti: Big Spencer può usare i BANG! come Mancato! e Lee Van Kliff può scartare una qualsiasi carta per usare la sua abilità.
 Wild West Show: È come se tutti avessero l’obiettivo del Rinnegato, ma i veri ruoli restano gli stessi (lo Sceriffo non può andare in Prigione, e chi elimina un Fuorilegge pesca 3 carte). Se lo Sceriffo è eliminato, si prosegue. La vittoria è individuale.
@@ -22,7 +22,7 @@ Calumet: Non funziona durante il Duello.
 Bottiglia: Malgrado abbia gli stessi effetti, non è una carta Panico!, una Birra o un BANG!. Il BANG! che consente di sparare non conta per il limite di un BANG! a turno.
 Ogni volta che fai perdere un punto vita a un altro giocatore in qualunque modo (con BANG!, Indiani!, Duello, ecc.), prendi una pepita d’oro dal mucchietto (se non ce ne sono più, usa altri segnalini). Se fai perdere punti vita a più giocatori con la stessa carta, prendi una pepita per ogni ferita che hai causato. Tieni le pepite che prendi di fronte a te, ben visibili a tutti.
 Gli equipaggiamenti non possono essere oggetto di Panico! o Cat Balou, né di altre carte del set base e delle espansioni, né di abilità di personaggi. L’unico modo per scartare un equipaggiamento è di pagarne il costo più una pepita.
-Quando sei eliminato, anche i tuoi equipaggiamenti sono scartati. Quando scarti gli equipaggiamenti mettili sempre in fondo al loro mazzetto a faccia in su. (Le abilità di personaggi come Vulture Sam non funzionano con gli equipaggiamenti.)
+Quando sei eliminato, anche i tuoi equipaggiamenti sono scartati. Quando scarti gli equipaggiamenti mettili sempre in fondo al loro mazzetto a faccia in su. (Le abilità di personaggi come Vulture Sam non funzionano con gli equipaggiamenti).
 Fantasma (2×): un fantasma è in gioco a tutti gli effetti ma non ha punti vita; quindi, alla fine del turno, scarta tutte le carte in mano. Se la carta Fantasma viene tolta, il fantasma esce di nuovo dal gioco. 
 Fuga: funziona anche su carte che coinvolgono più giocatori (Gatling, Indiani, ecc.). 
 LeMat: la carta giocata vale come carta BANG!, quindi ne puoi giocare comunque solo 1.
@@ -43,3 +43,15 @@ Buntline Special: Non importa se il colpo è stato annullato con la carta Mancat
 Frusta: Vale solo per le carte in gioco, non per quelle in mano. Vale a prescindere dalla distanza.
 Grimaldello: Vale solo per le carte in mano, non per quelle in gioco. Vale indipendentemente dalla distanza.
 Thunderer: Vale a prescindere che il colpo sia andato a segno o meno, e la carta BANG! va ripresa prima che il giocatore bersaglio risponda (con Mancato! o altro).
+A tutto vapore: muovi il treno fino al capolinea, poi scegli se ignorare o se risolvere due volte l’effetto della locomotiva (che vale per tutti i giocatori). Nel secondo caso, risolvi l’effetto per tutti una prima volta, e poi una seconda.
+Cassaforte: ricorda che non puoi giocare la carta che peschi in questo turno. Peschi 1 carta anche se sei in Prigione.
+Knife Revolver: non puoi usarla durante un Duello o contro Indiani!
+Mappa: prima di pescare carte nella tua Fase 1, guarda le prime 2 carte del mazzo: puoi scartarne una. Questo avviene dopo tutti gli effetti di “Estrarre!” di Dinamite, Prigione, ecc. e prima di tutte le abilità dei personaggi.
+Most Wanted: se tutti i giocatori sono eliminati insieme, i Fuorilegge vincono.
+Per un pelo!: se hai Mancato! un’abilità o un effetto senza che sia stata effettivamente giocata una carta (ad es. Ironhorse che arriva al capolinea), non puoi usare Per un pelo! per pescare una carta. Se usi questa carta contro Knife Revolver, puoi prenderlo soltanto se non torna nella mano del suo proprietario originale. 
+Prossima fermata: pesca la carta prima di risolvere eventuali effetti del capolinea.
+Rapina al treno: scegli un giocatore bersaglio. Quel giocatore deve scegliere uno dei due effetti per ogni carta di fronte a sé (può scegliere diversamente per ogni carta). Se sceglie un BANG!, può schivarlo come se fosse un normale BANG! (ad es. giocando un Mancato!). Ogni BANG! viene risolto a sé.
+Rimborso: quando un altro giocatore pesca o scarta una tua carta (dalla tua mano o in gioco davanti a te), tranne questa, pesca una carta. Non funziona contro Rapina al treno.
+Sacco di soldi: non puoi giocare questa carta quando non è il tuo turno.
+Scambio: se prendi una nuova arma, scarta l’eventuale arma che hai in gioco. Ricordati che non puoi avere in gioco due carte con lo stesso nome. Se prendi Ghost Car in questo modo, il precedente proprietario esce subito dal gioco, se era eliminato. Da Sceriffo non puoi scambiare Ghost Car o Prigione. Nota che le carte che formano il treno non sono considerate “in gioco” e quindi non possono essere scambiate.
+Serbatoio: non puoi far avanzare il treno prima di prendere il vagone. Questo vagone non conta per il normale limite di 1 vagone per turno.

@@ -31,8 +31,8 @@ Armed & Dangerous;Al Preacher;può essere attivato fuori turno. Puoi pescare sol
 Armed & Dangerous;Bass Greeves;puoi aggiungere i 2 cubetti su una tua unica carta Dangerous o sul personaggio stesso, ma non sud ue carte diverse (una per carta).
 Armed & Dangerous;Bloody Mary;non vale per carte che non sono carte BANG! vere e proprie, come ad es. Flintlock, Colpo rapido, Gatling, ecc.
 Armed & Dangerous;Frankie Canton;il cubetto che sposti può essere preso da una qualsiasi carta Dangerous in gioco, tua o di un altro giocatore, o da un altro personaggio. Si applica comunque il limite di 4 cubetti. Se prendi l’ultimo da una carta Dangerous, va scartata come al solito.
-Armed & Dangerous;Julie Cutter;il BANG! èsolo 1 anche se perdi piùpunti vita assieme, è automatico (non è necessariogiocare una carta BANG!), non tiene conto della distanza e può essere annullato al solito con Mancato!,Barile, Cassa, ecc.
-Armed & Dangerous;Mexicali Kid;il BANG! è“extra”, quindi non conta nel limite di 1 carta BANG! a turno, e non è necessario giocare alcuna carta BANG!. Il colpo può essere annullato al solito con Mancato!, Barile, Cassa, ecc., arriva fino alla distanza dell’arma che hai in gioco, ma non attiva gli effetti di un’arma Dangerous. Non funziona fuori turno (contro Indiani!, Freccia,Duello, ecc.)
+Armed & Dangerous;Julie Cutter;il BANG! èsolo 1 anche se perdi piùpunti vita assieme, è automatico (non è necessariogiocare una carta BANG!), non tiene conto della distanza e può essere annullato al solito con Mancato!, Barile, Cassa, ecc.
+Armed & Dangerous;Mexicali Kid;il BANG! è“extra”, quindi non conta nel limite di 1 carta BANG! a turno, e non è necessario giocare alcuna carta BANG!. Il colpo può essere annullato al solito con Mancato!, Barile, Cassa, ecc., arriva fino alla distanza dell’arma che hai in gioco, ma non attiva gli effetti di un’arma Dangerous. Non funziona fuori turno (contro Indiani!, Freccia, Duello, ecc.)
 Armed & Dangerous;Ms. Abigail;non vale sulle carte che hanno effetto su tutti, come ad es. Indiani!
 Armed & Dangerous;Red Ringo;lo spostamento va fatto in un’unica mossa. Puoi scegliere anche due carte diverse, e mettere 1 cubetto su ciascuna. Non puoi spostare cubetti dalle carte Dangerous a Red Ringo.
 Armed & Dangerous;Jourdonnais;L’abilità può essere usata per evitare gli effetti della Flintlock e della Buntline Special, nonché contro Mexicali Kid.
@@ -60,3 +60,12 @@ Bang!;Slab the Killer;per annullare le sue carte BANG! servono 2 Mancato!. L’e
 Bang!;Suzy Lafayette;non appena rimane senza carte in mano, pesca immediatamente una carta dal mazzo. 
 Bang!;Vulture Sam;non appena un personaggio è eliminato, Sam prende in mano tutte le carte che quel personaggio aveva in mano e in gioco.
 Bang!;Willy The Kid;nel suo turno può usare un numero qualsiasi di carte BANG! Queste possono essere usate anche contro giocatori diversi.
+The Great Train Robbery;Vulture Sam;quando un giocatore viene eliminato, prendi i suoi vagoni e mettili immediatamente in gioco di fronte a te.
+The Great Train Robbery;Benny Brawler;devi pagare ogni vagone che prendi con questa abilità. Tuttavia, durante il tuo turno, puoi far avanzare il treno gratuitamente soltanto una volta.
+The Great Train Robbery;Evan Babbit;la carta che scarti deve essere dello stesso seme della carta BANG! che ti sta bersagliando. Il giocatore che scegli come nuovo bersaglio deve trovarsi a distanza 1 da te. Non puoi scegliere il giocatore che ha giocato la carta BANG! come nuovo bersaglio. Se sono rimasti solo 2 giocatori in gioco, non puoi attivare questa abilità. Chi ha giocato la carta BANG! resta il responsabile degli effetti che ne derivano.
+The Great Train Robbery;Jimmy Texas;alla fine del tuo turno (dopo aver scartato le carte in eccesso) pesca una carta. Non puoi giocarla nello stesso turno in cui l’hai pescata. Questa abilità funziona anche se sei in Prigione.
+The Great Train Robbery;Manuelita;pesca 2 carte appena la locomotiva raggiunge il capolinea, prima di risolverne gli effetti.
+The Great Train Robbery;Sancho;puoi far avanzare il treno prima di prendere il vagone. Questo vagone conta nel normale limite di un vagone per turno.
+The Great Train Robbery;Shade O’Connor;se il treno raggiunge il capolinea, prima di risolverne gli effetti, scarta e pesca una carta.
+The Great Train Robbery;Sgt. Blaze;quando bersagli più giocatori attraverso una carta o un effetto, puoi escluderne uno. Se usi questa abilità con un Emporio, rivela una carta in meno del numero di giocatori: il giocatore escluso non pesca. Questa abilità funziona anche con gli effetti del capolinea se avvengono durante il tuo turno.
+The Great Train Robbery;Zippy Roy;con questa abilità puoi solo far avanzare il treno. Non ti dà diritto a prendere un vagone extra.
